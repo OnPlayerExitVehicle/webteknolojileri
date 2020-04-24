@@ -1,0 +1,25 @@
+body, html{
+    height: 100%;
+}
+.main_background{
+    background: url("img/main_background2fixed.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    
+}
+.hakkinda_background{
+    background: url("img/main_background2fixed.jpg");
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    filter:blur(2px);
+}
+h1.main_yazi
+{
+    color:rgb(175, 175, 175);
+}
+h2.main_yazi
+{
+    color:rgb(75, 75, 75);
+}
