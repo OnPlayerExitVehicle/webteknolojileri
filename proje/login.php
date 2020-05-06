@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
     <head>
         <title>Ali Nazif Koca</title>
@@ -30,19 +29,29 @@
           
           </ul>
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="login.html">Kullanıcı Girişi</a>
             </li>
           </ul>
         </div>
       </nav>
-    <header class="main_background">
-      <main class="container d-flex h-100 align-items-center">
-        <div class="mx-auto mt-5 mb-0 text-center">
-          <h1 class="main_yazi mx-auto mt-5">Ali Nazif Koca</h1>
-          <h2 class="main_yazi mx-auto">"Kafası Karışık Yazılımcı"</h2>
-        </div>
-      </main>
-    </header>
+      <header class="login_background">
+        <main class="text-center container d-flex h-100 align-items-center">
+          <div class="mx-auto col-2mx-auto">
+            <h1>
+                <?php
+                if(($_POST["email"] == "b191210057@sakarya.edu.tr") && ($_POST["password"] == "123"))
+                {
+                    echo "<h1 class=\"login_yazi\">Hoşgeldiniz \"b191210057\"</h1> <br><br> <a class=\"btn bg-light\" href=\"index.html\">Ana Sayfa</a>";
+                }
+                else
+                {
+                    echo "<h1 class=\"login_yazi\">Giriş bilgileriniz hatalı. Lütfen tekrar deneyiniz.</h1> <br><br> <a class=\"btn bg-light\" href=\"login.html\">Giriş</a>";
+                }
+                ?>
+            </h1>
+          </div>
+        </main>
+      </header>
   </body>
 </html>

@@ -8,12 +8,17 @@ body, html{
     background-position: center;
     
 }
-.hakkinda_background{
-    background: url("img/main_background2fixed.jpg");
+.standart_background{
+    background: rgb(255,255,255);
     background-size: cover;
     height: 100%;
     background-position: center;
-    filter:blur(2px);
+}
+.login_background{
+    background: url("img/login_background2.jpg");
+    background-size:cover;
+    height: 100%;
+    background-position: center;
 }
 h1.main_yazi
 {
@@ -22,4 +27,10 @@ h1.main_yazi
 h2.main_yazi
 {
     color:rgb(75, 75, 75);
+}
+.login_yazi{
+    color: black;
+}
+.hakkinda_yazi{
+    color:white;
 }
