@@ -26,11 +26,14 @@
             <li class="nav-item">
               <a class="nav-link" href="mirasimiz.html">Mirasımız</a>
             </li>
-          
+            <li class="nav-item">
+              <a class="nav-link" href="iletisim.html">İletişim</a>
+            </li>
           </ul>
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="login.html">Kullanıcı Girişi</a>
+            <li class="form-inline my-2 my-lg-0">
+              <a class="navbar-item" href="https://www.linkedin.com/in/ali-nazif-koca-4a39511a5/"><img src="img/linkedin.png" width="30" height="30" alt="LinkedIn"></a>
+              <a class="nav-link active" href="login.html">Kullanıcı Girişi</a>
             </li>
           </ul>
         </div>

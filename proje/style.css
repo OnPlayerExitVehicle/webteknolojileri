@@ -20,6 +20,12 @@ body, html{
     height: 100%;
     background-position: center;
 }
+.mirasimiz_background{
+    background: url("img/ataturk_suhut.jpg");
+    background-size:cover;
+    height: 100%;
+    background-position: center;
+}
 h1.main_yazi
 {
     color:rgb(175, 175, 175);
@@ -32,5 +38,8 @@ h2.main_yazi
     color: black;
 }
 .hakkinda_yazi{
+    color:white;
+}
+.iletisim_yazi{
     color:white;
 }
